@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "api/predict.py",
+        "src": "app.py",
         "use": "@vercel/python"
       }
     ],
@@ -10,7 +10,7 @@
       {
         "src": "/predict",
         "methods": ["POST"],
-        "dest": "api/predict.py"
+        "dest": "/app.py"
       }
     ]
   }

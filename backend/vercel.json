@@ -8,8 +8,7 @@
     ],
     "routes": [
       {
-        "src": "/predict",
-        "methods": ["POST"],
+        "src": "/(.*)",
         "dest": "/app.py"
       }
     ]
